@@ -1,0 +1,270 @@
+html
+{
+    background-color: #5fa572;
+    color: #403821;
+    line-height: 1.5;
+    font-size: 3vw;
+}
+
+
+body
+{
+    font-family: "Arial", "Times New-Roman";
+    background-color:#f6d16a;
+    margin: 0 auto;
+    max-width: 80%;
+    font-size: 1.2vw;
+}
+
+#main_title
+{
+    text-align: center;
+}
+
+#main_title h1
+{
+    margin: 0; 
+    font-size: 3em;
+    padding:10px;
+    letter-spacing: 1.35px;
+    color:#e95d1c;
+    text-shadow: 2px 2px #403821;
+}
+
+.navbar
+{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar ul
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden; /* aparent destul de important */
+    background-color: #bf351c;
+}
+
+.navbar li
+{
+    float:left;
+}
+
+.navbar li a
+{
+    font-size: 1.3vw;
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-shadow: 2px 2px #403821;
+}
+
+.navbar li a:hover
+{
+    background-color:#e95d1c;
+}
+
+.article
+{
+    text-align: justify;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.article h2
+{
+    text-align: center;
+    font-size:2.5vw;
+}
+
+.article ol li h3
+{
+    font-weight: 100;
+}
+
+.song-list
+{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+.song-list li a
+{
+    display: block;
+    background-color: #fab631;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2px;
+    color: #403821;
+}
+
+.song-list li a:hover
+{
+    background-color:#bf351c;
+    color:white;
+}
+
+.flex-container
+{
+    display: flex;
+}
+
+.image-with-description
+{
+    box-sizing: border-box;
+    width:50%;
+}
+
+.description
+{
+    text-align: center;
+    font-style: italic;
+}
+
+.row-image
+{
+    width:30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: #e95d1c;
+    border-radius:10px;
+    transition: transform .2s;
+}
+
+.row-image:hover
+{
+    transform: scale(1.05);
+}
+
+.grammy-row
+{
+    margin-top: 15px;
+}
+
+.golf-button
+{
+    background-color: white;
+    /*padding:10px 12px;*/
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #bf351c;
+    box-shadow: 5px 10px;
+    margin:auto;
+    max-width: 50%;
+    transition: transform .2s;
+}
+
+.golf-button a
+{
+    text-decoration: none;
+    color:inherit;
+    display: block;
+    font-size: 4vw;
+    margin: 0;
+    padding: 0;
+}
+
+.golf-button:hover
+{
+    transform: scale(1.05);
+    background-color: #fef8e7;
+}
+
+.golf-1
+{
+    color:#ef5a2e;
+    text-shadow: 2px 2px #0390b7;
+}
+
+.golf-2
+{
+    color:#6acbde;
+    text-shadow: 2px 2px #714925;
+}
+
+.golf-3
+{
+    color:#01954b;
+    text-shadow: 2px 2px #924198;
+}
+
+.golf-4
+{
+    color:#fbdf16;
+    text-shadow: 2px 2px #ed1c2f;
+}
+
+.double-row
+{
+    width:50%;
+}
+
+.social-media-icons
+{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.social-media-icons li
+{
+    list-style: none;
+    flex:33.3%;
+    margin: auto;
+}
+
+.social-media-icons li a
+{
+    padding: 1.5vw;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.social-media-icons li a:hover
+{
+    opacity: 0.9;
+    color:white;
+    text-decoration: none;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.footer
+{
+    background-color: #8c6c42;
+    overflow: hidden;
+    padding:20px;
+    border-top-style: solid;
+    border-color:#5fa572;
+}
+
+.footer-par
+{
+    font-family: "Verdana";
+    font-weight: 700;
+}
